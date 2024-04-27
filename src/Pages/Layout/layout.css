@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+ul,
+ol {
+    list-style: none;
+}
+
+.container {
+    max-width: 973px;
+    margin: auto;
+}
+
+.layout > div:nth-child(1){
+    z-index: 999999999;
+}
+
+.top{
+    background-image: url(https://cdn77-fs.aj1907.online/551/2872/43994/160/2008/bitz1911/media/t_1200x218.webp);
+   background-size: cover;
+   width: 1187px;
+   height: 218px;
+   position: fixed;
+   top: 14px;
+   left: 10.4%;
+}
+
+.layout > .lefts{
+    background-image: url(https://cdn77-fs.aj1907.online/551/2872/43994/160/2008/bitz1911/media/l_150x536.webp);
+    width: 150px;
+    background-size: contain;
+    top: 99px;
+    height: 550px;
+    left: 9px;
+    position: fixed;
+}
+
+.right{
+    background-image:  url(https://cdn77-fs.aj1907.online/551/2872/43994/160/2008/bitz1911/media/r_150x536.webp);
+    width: 150px;
+    background-size: contain;
+    top: 99px;
+    height: 550px;
+    right: 9px;
+    position: fixed;
+}

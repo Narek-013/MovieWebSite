@@ -1,0 +1,16 @@
+.videoComp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.videoComp > h4{
+  color: rgb(168, 168, 168);
+  font-size: 15px;
+}
+
+.videoItem{
+  margin-top: 20px;
+}

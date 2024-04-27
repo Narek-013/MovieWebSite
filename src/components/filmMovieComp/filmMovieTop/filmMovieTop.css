@@ -1,0 +1,17 @@
+.filmMovieTop{
+    color: black;
+    display: flex;
+    column-gap: 27px;
+    margin-top: 40px;
+}
+
+.filmMovieTop > img:nth-child(1){
+    width: 200px;
+    height: 300px;
+    margin: 0 4px 0 20px;
+}
+
+.filmMovieTop > p{
+    margin-top: 27px;
+    color: rgb(168, 168, 168);
+}

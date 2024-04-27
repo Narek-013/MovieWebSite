@@ -1,0 +1,38 @@
+.bottomFilm{
+    margin-left: 20px;
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.bottomFilms{
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    column-gap: 14px;
+    overflow: hidden;
+}
+
+.bottomFilms > .movieItems > img{
+    width: 110px;
+    height: 172px;
+    padding: 1px;
+    cursor: pointer;
+    opacity: .7;
+    &:hover{
+        opacity: 1;
+    }
+}
+
+.namess{
+    text-decoration: underline;
+    text-align: center;
+    font-size: 12px;
+    transition: all, .2s;
+    &:hover{
+       color: rgb(255, 0, 0);
+       opacity: .8;
+       cursor: pointer;
+    }
+}

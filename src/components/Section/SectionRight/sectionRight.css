@@ -1,0 +1,141 @@
+.sectionRight {
+  color: green;
+  width: 641px;
+  height: 8200px;
+  background-color: rgb(43, 43, 43);
+  z-index: 7777;
+}
+
+.kinoGO {
+  display: flex;
+  flex-direction: column;
+  margin-left: 2px;
+  height: 15.2px;
+  border: 1px solid rgb(255, 255, 255);
+}
+
+
+.kinoGoTop {
+  padding: 4px 0;
+  font-size: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(77, 77, 77);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+.kinoGoBottom {
+  margin-top: 4px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 42px;
+  background-color: rgb(77, 77, 77);
+  padding: 29px 0;
+}
+
+.kinoGoBottom > label {
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+}
+
+.kinoGoBottom > select {
+  color: rgb(168, 168, 168);
+  font-weight: 400;
+  font-size: 12px;
+  padding: 7px;
+  transition: all, 0.4s;
+  background-color: rgb(43, 43, 43);
+  &:hover {
+    box-shadow: 1px 1.4px 5px rgb(168, 168, 168);
+  }
+}
+
+.kinoGoBottom > button {
+  width: 30px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  height: 30px;
+  background-color: rgb(43, 43, 43);
+}
+
+.movieCard {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+  margin-left: 17px;
+  
+}
+
+.bottomCard,
+.topCard {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.topCard > a {
+  font-size: 15px;
+  font-weight: 700;
+  color: rgb(224, 223, 220);
+  text-decoration: none;
+  transition: all,.2s;
+  &:hover {
+    color: rgb(255, 0, 0);
+  }
+}
+
+.centerCard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 14px;
+}
+
+.infoCard {
+    display: flex;
+    flex-direction: column;
+    row-gap: 7px;
+}
+
+.infoCard > p > span{
+    color: rgb(255, 200, 0);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+.centerCard > img{
+    width: 200px;
+    &:hover{
+      opacity: .7;
+      cursor: pointer;
+    }
+} 
+
+.bottomCard{
+    margin-top: 10px;
+}
+
+.bottomCard > img{
+    width: 120px;
+    height: 32px;
+    
+}
+
+.bottomCard > button{
+    background: #242424;
+    color:rgb(168, 168, 168);
+    outline: none;
+    border: 1px solid rgb(168, 168, 168);
+    padding: 1px 2px;
+    transition: all,.2s;
+    &:hover{
+        color: #fff;
+        background-color: rgb(168, 168, 168);
+        opacity: .8;
+    }
+}
+
